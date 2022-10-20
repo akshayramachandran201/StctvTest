@@ -5,9 +5,11 @@
     <classes>
       <class name="com.stctv.qa.testcases.LoginPageTest">
         <methods>
-          <include name="liteamount"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="validatepremiumPackagePriceForKWD"/>
+          <include name="validatepremiumPackagePriceForSAR"/>
+          <include name="validatepremiumPackagePriceForBHD"/>
         </methods>
       </class> <!-- com.stctv.qa.testcases.LoginPageTest -->
     </classes>
